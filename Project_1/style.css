@@ -3,8 +3,11 @@
     src: url("fonts/GraphikRegular.otf");
 }
 *{
-    background-color: #181818;
     font-family: 'graphik', monospace;
+}
+body{
+    margin: 0;
+    background-color: #181818;
 }
 nav{
     display: flex;
@@ -32,7 +35,6 @@ nav div{
     padding:13.5px 46px;
     border: 1px solid white;
     text-decoration: none;
-    background-color: transparent;
     color: white;
 
 }
@@ -82,14 +84,10 @@ nav div{
     
 }
 .dashboards{
-    height: 710px;
+    height: 800px;
     background-image: linear-gradient(#f000,#f000, black);
 }
-.dashboards  div{
-    background:transparent;
-}
 .dashboards  div img{
-    background:transparent;
     width: 600px;
 }
 .dashboard_2{
@@ -102,6 +100,12 @@ nav div{
     left: 686px;
     top: 826px;
 }
-body{
-    margin: 0;
+.features{
+    height: 1100px;
+    padding: 62px 50px;
+}
+.features h1{
+    font-size: 50px;
+    color: #fff;
+
 }

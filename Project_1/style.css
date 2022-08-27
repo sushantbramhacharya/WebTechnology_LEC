@@ -79,20 +79,29 @@ nav div{
     align-items: center;
     justify-content: center;
     margin-top: 2%;
+    
+}
+.dashboards{
+    height: 710px;
+    background-image: linear-gradient(#f000,#f000, black);
 }
 .dashboards  div{
     background:transparent;
 }
 .dashboards  div img{
     background:transparent;
+    width: 600px;
 }
 .dashboard_2{
     position: absolute;
-    left: -37px;
-    top: 892px;
+    left: 72px;
+    top: 850px;
 }
 .chatbot{
     position: absolute;
-    left: 681px;
-    top: 873px;
+    left: 686px;
+    top: 826px;
+}
+body{
+    margin: 0;
 }

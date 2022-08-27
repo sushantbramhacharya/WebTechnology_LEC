@@ -1,5 +1,10 @@
+@font-face {
+    font-family: graphik;
+    src: url("fonts/GraphikRegular.otf");
+}
 *{
     background-color: #181818;
+    font-family: 'graphik', monospace;
 }
 nav{
     display: flex;
@@ -15,6 +20,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
+    font-weight: 500;
 }
 nav div{
     margin-top: 3%;  
@@ -38,14 +44,17 @@ nav div{
 .text-box h1{
     color: white;
     text-align: center;
+    font-weight: 500;
     font-size: 80px;
     margin-top: 50px;
+    letter-spacing: 0.2px;
     margin-bottom: 0;
 }
 .text-box p{
     color: white;
     text-align: center;
     font-size: 20px;
+    font-weight: 400;
     margin-top: 0px;
     margin-bottom: 20px;
 }

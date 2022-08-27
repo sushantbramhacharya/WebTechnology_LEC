@@ -74,6 +74,25 @@ nav div{
 .header-btn a{
     padding: 20px 40px;
 }
-.dashboards{
+.dashboard_1{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.dashboards  div{
+    background:transparent;
+}
+.dashboards  div img{
+    background:transparent;
+}
+.dashboard_2{
+    position: absolute;
+    left: -37px;
+    top: 892px;
+}
+.chatbot{
+    position: absolute;
+    left: 681px;
+    top: 873px;
 }

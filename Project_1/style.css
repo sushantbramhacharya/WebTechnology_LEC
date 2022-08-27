@@ -10,6 +10,7 @@ nav{
     display: flex;
     max-width: 65%;
     margin: auto;
+    margin-top: 37px;
     justify-content: space-between;
 }
 nav ul li{
@@ -20,6 +21,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
+    font-size: 16px;
     font-weight: 500;
 }
 nav div{
@@ -37,9 +39,9 @@ nav div{
 .text-box{
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 17px;
     width: 60%;
-    margin: auto;
+    margin: 50px auto;
 }
 .text-box h1{
     color: white;
@@ -58,7 +60,7 @@ nav div{
     margin-top: 0px;
     margin-bottom: 20px;
 }
-.btn-secondary
+.btn-second
 {
     background: #4452FE;
     border: none;
@@ -68,6 +70,9 @@ nav div{
     order:2;
     gap: 35px;
     justify-content: center;
+}
+.header-btn a{
+    padding: 20px 40px;
 }
 .dashboards{
     display: flex;

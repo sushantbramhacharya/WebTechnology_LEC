@@ -101,11 +101,25 @@ nav div{
     top: 826px;
 }
 .features{
-    height: 1100px;
-    padding: 62px 50px;
+    /* height: 1100px; */
+    padding: 162px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.features h1{
-    font-size: 50px;
+.features div{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.features div h1{
+    font-size: 52px;
+    text-align: center;
+    margin: 0;
     color: #fff;
-
+}
+.features div p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
 }

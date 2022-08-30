@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "Graphik";
+    src: url("./fonts/GraphikRegular.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Graphik";
+    src: url("./fonts/GraphikBold.otf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    font-family: 'graphik';
+}
+
 body {
     margin: 0;
     background-color: #181818;
@@ -66,7 +85,7 @@ nav {
     color: white;
     text-align: center;
     font-weight: 500;
-    font-size: 80px;
+    font-size: 70px;
     margin-top: 50px;
     letter-spacing: 0.2px;
     margin-bottom: 0;
@@ -82,7 +101,7 @@ nav {
 }
 
 .btn {
-    
+
     font-size: 17px;
     padding: 13.5px 46px;
     border: 1px solid white;
@@ -140,10 +159,11 @@ nav {
     }
 }
 
-@media(max-width:440px){
-    .logo_btn{
+@media(max-width:440px) {
+    .logo_btn {
         width: 100px;
     }
+
     nav {
         max-width: 97%;
     }
@@ -166,11 +186,12 @@ nav {
 }
 
 @media(max-width:980px) {
-    
-    .btn{
+
+    .btn {
         display: block;
     }
+
     .header_buttons {
-    margin-top: 30px;
-      }
+        margin-top: 30px;
+    }
 }

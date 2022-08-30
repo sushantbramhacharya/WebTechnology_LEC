@@ -2,50 +2,59 @@
     font-family: graphik;
     src: url("../fonts/GraphikRegular.otf");
 }
-*{
+
+* {
     font-family: 'graphik', monospace;
 }
-body{
+
+body {
     margin: 0;
     background-color: #181818;
 }
-nav{
+
+nav {
     display: flex;
     max-width: 65%;
     margin: auto;
     margin-top: 37px;
     justify-content: space-between;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     padding: 10px;
     margin-right: 31px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
 }
-nav div{
-    margin-top: 3%;  
+
+nav div {
+    margin-top: 3%;
 }
-.btn{
+
+.btn {
     font-size: 17px;
-    padding:13.5px 46px;
+    padding: 13.5px 46px;
     border: 1px solid white;
     text-decoration: none;
     color: white;
 
 }
-.text-box{
+
+.text-box {
     display: flex;
     flex-direction: column;
     gap: 17px;
     width: 60%;
     margin: 50px auto;
 }
-.text-box h1{
+
+.text-box h1 {
     color: white;
     text-align: center;
     font-weight: 500;
@@ -54,7 +63,8 @@ nav div{
     letter-spacing: 0.2px;
     margin-bottom: 0;
 }
-.text-box p{
+
+.text-box p {
     color: white;
     text-align: center;
     font-size: 20px;
@@ -62,45 +72,53 @@ nav div{
     margin-top: 0px;
     margin-bottom: 20px;
 }
-.btn-second
-{
+
+.btn-second {
     background: #4452FE;
     border: none;
 }
-.header-btn{
+
+.header-btn {
     display: flex;
-    order:2;
+    order: 2;
     gap: 35px;
     justify-content: center;
 }
-.header-btn a{
+
+.header-btn a {
     padding: 20px 40px;
 }
-.dashboard_1{
+
+.dashboard_1 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2%;
-    
+
 }
-.dashboards{
+
+.dashboards {
     height: 800px;
-    background-image: linear-gradient(#f000,#f000, black);
+    background-image: linear-gradient(#f000, #f000, black);
 }
-.dashboards  div img{
+
+.dashboards div img {
     width: 600px;
 }
-.dashboard_2{
+
+.dashboard_2 {
     position: absolute;
     left: 72px;
     top: 850px;
 }
-.chatbot{
+
+.chatbot {
     position: absolute;
     left: 686px;
     top: 826px;
 }
-.features{
+
+.features {
     /* height: 1100px; */
     margin: 162px auto;
     display: flex;
@@ -109,26 +127,31 @@ nav div{
     flex-direction: column;
     justify-content: center;
 }
-.features_header{
+
+.features_header {
     display: flex;
     flex-direction: column;
     gap: 27px;
 }
-.features div h1{
+
+.features div h1 {
     font-size: 52px;
     text-align: center;
     margin: 0;
     color: #fff;
 }
-.features div p{
+
+.features div p {
     color: #fff;
     text-align: center;
     font-size: 20px;
 }
-.features_content{
+
+.features_content {
     display: flex;
     flex-direction: row;
 }
+
 .features_content img {
     height: 580px;
 }

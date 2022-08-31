@@ -101,16 +101,21 @@ nav {
 }
 
 .btn {
-
+    display: inline-block;
     font-size: 17px;
-    padding: 13.5px 46px;
-    border: 1px solid white;
     text-decoration: none;
     color: white;
     margin: 20px;
 }
 
-.btn_second {
+.btndiv {
+    height: 65px;
+    width: 178px;
+    border: 1px solid white;
+    line-height: 65px;
+}
+
+.btn_second div {
     background: #4452FE;
     border: none;
 }
@@ -131,6 +136,30 @@ nav {
     background-position: 0px 0px, 50% 50%;
     background-size: auto, contain;
     background-repeat: repeat, no-repeat;
+}
+
+.features {
+    color: white;
+}
+
+.features h2 {
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 400;
+}
+
+.features p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.features_content img {
+    height: 600px;
+}
+
+.features_content {
+    display: inline-block;
 }
 
 @media(max-width:700px) {

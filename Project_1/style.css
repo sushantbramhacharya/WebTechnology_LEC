@@ -140,6 +140,7 @@ nav {
 
 .features {
     color: white;
+    margin-top: 100px;
 }
 
 .features h2 {
@@ -154,12 +155,46 @@ nav {
     text-align: center;
 }
 
-.features_content img {
+.features_body img {
     height: 600px;
+    vertical-align: top;
+    display: inline-block;
+
 }
 
 .features_content {
     display: inline-block;
+    text-align: left;
+}
+
+.features_subheading img {
+    width: 26px;
+    height: 24px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.features_subheading {
+    margin-bottom: 50px;
+}
+
+.features_body {
+    padding-top: 60px;
+}
+
+.subheading {
+    margin: 0;
+    display: inline-block;
+}
+
+.description {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contents_header{
+    margin-top: 200px;
 }
 
 @media(max-width:700px) {

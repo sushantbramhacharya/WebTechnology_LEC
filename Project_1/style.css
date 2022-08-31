@@ -197,6 +197,11 @@ nav {
     margin-top: 200px;
 }
 
+.partners_logo img
+{
+    padding:20px 1.5%
+}
+
 @media(max-width:700px) {
     .header_content h1 {
         font-size: 50px;

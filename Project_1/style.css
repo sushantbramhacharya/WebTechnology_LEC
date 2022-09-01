@@ -333,3 +333,12 @@ footer table tr td a {
 #social_info img{
     vertical-align: middle;
 }
+
+.testimonial_box{
+    width: 80%;
+    background-color: red;
+}
+
+.testimonial_box p{
+    font-size: 16px;
+}

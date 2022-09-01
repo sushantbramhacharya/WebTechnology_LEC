@@ -255,6 +255,10 @@ nav {
 
 @media(max-width:980px) {
 
+    .contents_row {
+        display: block;
+    }
+
     .btn {
         display: block;
     }
@@ -272,7 +276,7 @@ table {
     padding: 0px 35px 40px 35px;
     display: block;
     width: 300px;
-    
+
 }
 
 .contents h3 {
@@ -296,4 +300,36 @@ table {
     color: #000;
     background-color: #D3D3D3;
     border-radius: 10px;
+}
+
+footer {
+    color: white;
+}
+
+footer table tr td p {
+    padding-right: 75px;
+    font-size: 20px;
+}
+
+footer table tr td a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#info_end img {
+    vertical-align: middle;
+}
+
+#info_end p {
+    font-size: 16px;
+    display: inline-block;
+}
+
+#info_end{
+    padding-left: 100px;
+}
+
+#social_info img{
+    vertical-align: middle;
 }

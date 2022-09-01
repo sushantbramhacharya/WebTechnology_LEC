@@ -193,13 +193,12 @@ nav {
     margin-bottom: 20px;
 }
 
-.contents_header{
+.contents_header {
     margin-top: 200px;
 }
 
-.partners_logo img
-{
-    padding:20px 1.5%
+.partners_logo img {
+    padding: 20px 1.5%
 }
 
 @media(max-width:700px) {
@@ -263,4 +262,38 @@ nav {
     .header_buttons {
         margin-top: 30px;
     }
+}
+
+table {
+    margin: auto;
+}
+
+.contents img {
+    padding: 0px 35px 40px 35px;
+    display: block;
+    width: 300px;
+    
+}
+
+.contents h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.contents p {
+    font-size: 16px;
+    color: #5C5C5C;
+}
+
+#content_button {
+    padding: 20px;
+}
+
+.contents {
+    display: block;
+    margin: 10px;
+    color: #000;
+    background-color: #D3D3D3;
+    border-radius: 10px;
 }

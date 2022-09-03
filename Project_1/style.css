@@ -288,17 +288,18 @@ footer table tr td a {
     float: right;
 }
 
-.testimonials_block{
+.testimonials_block {
     border-radius: 10px;
     border: white solid 1px;
     margin-bottom: 3%;
     padding: 35px;
 }
 
-.testimonials_block table{
+.testimonials_block table {
     margin: 0;
 }
-.testimonials_block table p{
+
+.testimonials_block table p {
     padding: 10px;
     margin: 0px;
 }
@@ -320,7 +321,11 @@ footer table tr td a {
     .features_body img {
         max-width: 100%;
         height: auto;
-      }
+    }
+
+    .partners_logo img {
+        padding: 20px 4%;
+    }
 }
 
 @media(max-width:440px) {
@@ -373,5 +378,9 @@ footer table tr td a {
 
     .header_buttons {
         margin-top: 30px;
+    }
+
+    .btndiv {
+        margin: auto;
     }
 }

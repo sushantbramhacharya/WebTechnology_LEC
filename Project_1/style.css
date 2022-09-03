@@ -306,6 +306,11 @@ footer table tr td a {
     margin: 5% 20%
 }
 
+#ham_menu{
+    display: inline-block;
+    vertical-align: middle;
+    filter: invert(100%) sepia(0%) saturate(7483%) hue-rotate(229deg) brightness(105%) contrast(105%);
+}
 
 /* MINIMUM WIDTH MEDIA QUERY */
 
@@ -348,6 +353,10 @@ footer table tr td a {
     footer table tr td p {
         padding-right: 25px;
       }
+
+    .login_btn div{
+        width: 80px;
+    }
 }
 
 @media(max-width:700px) {

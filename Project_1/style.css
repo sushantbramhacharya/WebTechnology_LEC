@@ -280,13 +280,7 @@ footer table tr td a {
     line-height: 24px;
 }
 
-.testimonials_table_1 {
-    float: left;
-}
 
-.testimonials_table_2 {
-    float: right;
-}
 
 .testimonials_block {
     border-radius: 10px;
@@ -304,6 +298,21 @@ footer table tr td a {
     margin: 0px;
 }
 
+#testimonials_main_div {
+    margin: 5% 20%
+}
+
+@media(min-width:700px)
+{
+    .testimonials_table_1 {
+        float: left;
+    }
+    
+    .testimonials_table_2 {
+        float: right;
+    }
+    
+}
 
 @media(max-width:700px) {
     .header_content h1 {
@@ -326,6 +335,12 @@ footer table tr td a {
     .partners_logo img {
         padding: 20px 4%;
     }
+    #testimonials_main_div {
+        margin: 5% 0%
+    }
+    .testimonials_table {
+        width: 95%;
+      }
 }
 
 @media(max-width:440px) {
@@ -338,9 +353,7 @@ footer table tr td a {
         padding-top: 10px;
         font-size: 15px;
     }
-}
 
-@media(max-width:440px) {
     .logo_btn {
         width: 100px;
     }
@@ -348,6 +361,10 @@ footer table tr td a {
     nav {
         max-width: 97%;
     }
+
+    .testimonials_table {
+        width: 100%;
+      }
 }
 
 @media(max-width:1205px) {
@@ -382,5 +399,9 @@ footer table tr td a {
 
     .btndiv {
         margin: auto;
+    }
+
+    #testimonials_main_div {
+        margin: 5% 10%
     }
 }

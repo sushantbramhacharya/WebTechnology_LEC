@@ -304,6 +304,7 @@ table {
 
 footer {
     color: white;
+    margin-top: 75%;
 }
 
 footer table tr td p {
@@ -326,19 +327,44 @@ footer table tr td a {
     display: inline-block;
 }
 
-#info_end{
+#info_end {
     padding-left: 100px;
 }
 
-#social_info img{
+#social_info img {
     vertical-align: middle;
 }
 
-.testimonial_box{
-    width: 80%;
-    background-color: red;
+.testimonials_table {
+    width: 49.5%;
+    text-align: left;
 }
 
-.testimonial_box p{
+.testimonials_table p {
+    text-align: justify;
     font-size: 16px;
+    line-height: 24px;
+}
+
+.testimonials_table_1 {
+    float: left;
+}
+
+.testimonials_table_2 {
+    float: right;
+}
+
+.testimonials_block{
+    border-radius: 10px;
+    border: white solid 1px;
+    margin-bottom: 3%;
+    padding: 35px;
+}
+
+.testimonials_block table{
+    margin: 0;
+}
+.testimonials_block table p{
+    padding: 10px;
+    margin: 0px;
 }

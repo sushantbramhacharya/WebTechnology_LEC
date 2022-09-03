@@ -19,7 +19,7 @@
                 <div class="navlinks_block inline-block"><a class="nav-links" href="">About</a></div>
                 <div class="navlinks_block inline-block"><a class="nav-links" href="">Contact</a></div>
                 <div id="ham_menu">
-                    <a onclick="" >
+                    <a onclick="menu()">
                         <img src="./images/menu-icon.svg" width="30px" alt="">
                     </a>
                 </div>
@@ -41,10 +41,24 @@
                 </a>
             </div>
         </div>
+        <!-- MOBILE MENU -->
+        <div id="menu">
+            <a onclick="menuClose()">
+                <img src="./images/close.png" width="20px" alt="Close">
+            </a>
+            <div>
+                <a class="nav-links-mobile nav-links href="">Home</a>
+            <a class=" nav-links-mobile nav-links" href="">Product</a>
+                <a class="nav-links-mobile nav-links" href="">About</a>
+                <a class="nav-links-mobile nav-links" href="">Contact</a>
+            </div>
+        </div>
     </section>
+    <!-- Hero Image -->
     <section class="hero_image">
 
     </section>
+    <!-- FEATURES SECTION -->
     <section class="features center">
         <div class="features_header">
             <h2>FEATURES</h2>
@@ -328,8 +342,16 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
 <script>
+    var ham_menu = document.getElementById("menu");
+    function menu() {
+        ham_menu.style.display = "block";
+    }
+    function menuClose() {
+        ham_menu.style.display = "none";
+    }
 </script>
+
 </html>

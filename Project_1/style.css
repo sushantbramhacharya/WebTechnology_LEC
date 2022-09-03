@@ -306,10 +306,26 @@ footer table tr td a {
     margin: 5% 20%
 }
 
-#ham_menu{
-    display: inline-block;
+#ham_menu {
+    display: none;
     vertical-align: middle;
     filter: invert(100%) sepia(0%) saturate(7483%) hue-rotate(229deg) brightness(105%) contrast(105%);
+}
+
+#menu {
+    height: 100%;
+    width: 70%;
+    background: grey;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    display: none;
+    left: 40%;
+    padding: 40px;
+}
+
+.menu div {
+    padding: 5%;
 }
 
 /* MINIMUM WIDTH MEDIA QUERY */
@@ -325,37 +341,80 @@ footer table tr td a {
 
 }
 
+
 /* MAX WIDTH MEDIA QUERY */
+@media(max-width:1270px) {
+    .login_block {
+        margin-left: 20px;
+    }
+}
 
-@media(max-width:440px) {
-    .header_content h1 {
-        font-size: 40px;
-        margin-top: 100px;
+@media(max-width:1180px) {
+    .login_block {
+        margin-left: 5px;
     }
 
-    .header_content p {
-        padding-top: 10px;
-        font-size: 15px;
-    }
-
-    .logo_btn {
-        width: 100px;
+    .nav-links {
+        margin-right: 5px;
     }
 
     nav {
-        max-width: 97%;
+        max-width: 80%;
+    }
+}
+
+
+
+@media(max-width:980px) {
+
+    .contents_row {
+        display: block;
     }
 
-    .testimonials_table {
+    .btn {
+        display: block;
+    }
+
+    #info_end_mobile {
+        display: block;
         width: 100%;
+        text-align: center;
+        margin: 20px auto;
     }
 
-    footer table tr td p {
-        padding-right: 25px;
-      }
+    #info_end_mobile div p {
+        display: inline-block;
 
-    .login_btn div{
-        width: 80px;
+    }
+
+    #info_end_mobile img {
+        vertical-align: middle;
+    }
+
+    #info_end {
+        display: none;
+    }
+
+    .header_buttons {
+        margin-top: 30px;
+    }
+
+    .btndiv {
+        margin: auto;
+    }
+
+    #testimonials_main_div {
+        margin: 5% 10%
+    }
+
+    nav {
+        max-width: 94%;
+    }
+}
+
+@media(max-width:832px) {
+    .features_content {
+        padding-top: 60px;
     }
 }
 
@@ -388,64 +447,48 @@ footer table tr td a {
     .testimonials_table {
         width: 95%;
     }
-}
 
-@media(max-width:980px) {
-
-    .contents_row {
+    .nav-links-mobile {
         display: block;
     }
 
-    .btn {
-        display: block;
-    }
-
-    #info_end_mobile {
-        display: block;
-        width: 50%;
-        text-align: center;
-        margin: 20px auto;
-    }
-
-    #info_end_mobile div p {
+    #ham_menu {
         display: inline-block;
-        
     }
 
-    #info_end_mobile img{
-        vertical-align: middle;
-    }
-
-    #info_end {
-        display: none;
-    }
-
-    .header_buttons {
-        margin-top: 30px;
-    }
-
-    .btndiv {
-        margin: auto;
-    }
-
-    #testimonials_main_div {
-        margin: 5% 10%
-    }
-
-}
-
-@media(max-width:1205px) {
-    .login_block {
-        margin-left: 20px;
+    h2 {
+        font-size: 40px;
     }
 }
 
-@media(max-width:1080px) {
-    .login_block {
-        margin-left: 5px;
+@media(max-width:440px) {
+    .header_content h1 {
+        font-size: 40px;
+        margin-top: 100px;
     }
 
-    .nav-links {
-        margin-right: 5px;
+    .header_content p {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    .logo_btn {
+        width: 100px;
+    }
+
+    nav {
+        max-width: 97%;
+    }
+
+    .testimonials_table {
+        width: 100%;
+    }
+
+    footer table tr td p {
+        padding-right: 25px;
+    }
+
+    .login_btn div {
+        width: 80px;
     }
 }

@@ -127,8 +127,8 @@ nav {
 .hero_image {
     margin-top: 35%;
     display: block;
-    width: 100vw;
-    max-width: 99vw;
+    /* width: 99vw; */
+    max-width: 98.8vw;
     padding-top: 605px;
     padding-right: 0px;
     padding-bottom: 605px;

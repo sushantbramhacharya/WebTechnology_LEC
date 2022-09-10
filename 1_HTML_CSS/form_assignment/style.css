@@ -35,8 +35,7 @@ header {
 
 form {
     text-align: left;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0% 20%;
 }
 
 fieldset {
@@ -49,5 +48,5 @@ legend {
 
 span {
     font-size: 1.5em;
-    color: rgb(243, 110, 110);
+    color: rgb(243, 170, 170);
 }

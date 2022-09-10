@@ -16,16 +16,81 @@
     </header>
     <p>------------Please fill up form below------------</p>
     <form method="GET" action="thanku.html">
-        <label for="first">First name : </label> <br>
-        <input placeholder="John" class="user-input" type="text" name="first" value="" id="first">
-        <br>
-        <label for="last">Last name : </label> <br>
-        <input  placeholder="Doe" class="user-input" type="text" name="last" value="" id="last">
-        <br>
-        <label for="email">Email :</label> <br>
-        <input placeholder="example@example.com" class="user-input" type="email" name="email" value="" id="email">
-        <br>
-        <input type="submit" id="sign-up" value="Sign me up!">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="first">First name : </label>
+            <input placeholder="John" class="user-input" type="text" name="first" value="" id="first">
+            <br>
+            <label for="last">Last name : </label>
+            <input placeholder="Doe" class="user-input" type="text" name="last" value="" id="last">
+            <br>
+            <label for="email">Email :</label>
+            <input placeholder="example@example.com" class="user-input" type="email" name="email" value="" id="email">
+            <br>
+            <label for="bdaymonth">Started Development :</label>
+            <input type="number" min="1900" max="2099" class="user-input" step="1" value="2016" /><br>
+        </fieldset>
+        <fieldset>
+            <legend>Dev Info</legend>
+            <label for="lang">Favourite Language:</label>
+            <select id="languages" name="lang" class="user-input">
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Python">Python</option>
+                <option value="Javascript">Javascript</option>
+            </select><br>
+            <label for="lang_proficency">
+                Language Proficency :
+            </label>
+            <span>Beginner</span>
+            <input type="range" name="lang_proficency" id="lang_proficency">
+            <span>Expert</span>
+            <br>
+            <label for="field">Working Field:</label>
+            <select id="field" name="field" class="user-input">
+                <option value="WebDevelopment">Web Development</option>
+                <option value="MobileDevelopment">Mobile Development</option>
+                <option value="GameDevelopment">Game Development</option>
+                <option value="DataScientist">Data Scientist</option>
+            </select><br>
+            <label for="field_proficency">
+                Field Proficency:
+            </label>
+            <span>Beginner</span>
+            <input type="range" name="field_proficency" id="field_proficency">
+            <span>Expert</span><br>
+            <label for="browsers">Which browser you use: </label>
+            <input class="user-input" list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Microsoft Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Brave">
+                <option value="Safari">
+            </datalist><br>
+            <label for="code-editors">Choose a IDE/Code Editor:</label>
+            <select name="code-editors" id="code-editors" class="user-input">
+                <optgroup label="Code Editors">
+                    <option value="Visual Studio Code">Visual Studio Code</option>
+                    <option value="Sublime Text">Sublime Text</option>
+                    <option value="Notepad ++">Notepad ++</option>
+                </optgroup>
+                <optgroup label="IDE">
+                    <option value="Pycharm">Pycharm</option>
+                    <option value="Visual Studio">Visual Studio</option>
+                    <option value="Netbeans">Netbeans</option>
+                    <option value="Eclipse">Eclipse</option>
+                    <option value="X-Code">X-Code</option>
+                </optgroup>
+                <optgroup label="Mobile Development">
+                    <option value="AndroidStudio">Android Studio</option>
+                    <option value="X-Code">X-Code</option>
+                </optgroup>
+            </select>
+            <br>
+        </fieldset>
+
+        <input type="submit" style="margin:2% 10%; " id="sign-up" value="Sign me up!">
         <br>
     </form>
 </body>

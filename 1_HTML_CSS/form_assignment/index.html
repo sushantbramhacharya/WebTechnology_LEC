@@ -32,6 +32,7 @@
         </fieldset>
         <fieldset>
             <legend>Dev Info</legend>
+            <fieldset style="padding: 10px;">
             <label for="lang">Favourite Language:</label> <br>
             <select id="languages" name="lang" class="user-input">
                 <option value="C">C</option>
@@ -47,8 +48,9 @@
             </label>
             <span>Beginner</span>
             <input type="range" name="lang_proficency" id="lang_proficency">
-            <span>Expert</span>
+            <span>Expert</span></fieldset>
             <br><br>
+            <fieldset style="padding: 10px;">
             <label for="field">Working Field:</label><br>
             <select id="field" name="field" class="user-input">
                 <option value="WebDevelopment">Web Development</option>
@@ -61,7 +63,7 @@
             </label>
             <span>Beginner</span>
             <input type="range" name="field_proficency" id="field_proficency">
-            <span>Expert</span><br><br>
+            <span>Expert</span></fieldset><br><br>
             <label for="browsers">Which browser you use: </label><br>
             <input class="user-input" list="browsers" name="browser">
             <datalist id="browsers">

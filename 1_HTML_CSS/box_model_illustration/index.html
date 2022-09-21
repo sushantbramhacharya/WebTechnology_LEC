@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/CSS_text_representation_%28square%29.png"
+                width="100px">
+        </div>
+    </div>
+    <div class="inputs">
+        <ol>
+            <li>
+                <div class="pad"></div>Padding <span id="pad">50 px</span>
+            </li>
+            <li>
+                <div class="mar"></div> Margin <span id="mar">50 px</span>
+            </li>
+        </ol>
+        <button onclick="increasePadding()">Increase Padding</button>
+        <button onclick="decreasePadding()">Decrease Padding</button>
+        <button onclick="increaseMargin()">Increase Margin</button>
+        <button onclick="decreaseMargin()">Decrease Margin</button>
+    </div>
+</body>
+<script>
+    let container = document.getElementsByClassName("container");
+    let padding = 50;
+    let margin = 50;
+    let paddingIndicator = document.getElementById("pad");
+    let marginIndicator = document.getElementById("mar");
+
+    function increasePadding() {
+        padding += 10;
+        container[0].style.padding = padding + "px";
+        paddingIndicator.innerHTML = padding + " px";
+    }
+    function decreasePadding() {
+        padding -= 10;
+        container[0].style.padding = padding + "px";
+        paddingIndicator.innerHTML = padding + " px";
+    }
+    function increaseMargin() {
+        margin += 10;
+        container[0].style.margin = margin + "px";
+        marginIndicator.innerHTML = margin + " px";
+    }
+    function decreaseMargin() {
+        margin -= 10;
+        container[0].style.margin = margin + "px";
+        marginIndicator.innerHTML = margin + " px";
+    }
+</script>
+
+</html>

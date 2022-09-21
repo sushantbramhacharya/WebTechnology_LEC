@@ -1,0 +1,40 @@
+.main-container {
+    border: 2px dotted grey;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightblue;
+    display: block;
+}
+
+.container {
+
+    margin: 50px;
+    border: 2px dotted grey;
+    padding: 50px;
+    background-color: lightgreen;
+}
+
+
+
+.inputs {
+    margin-top: 38%;
+}
+
+a {
+    margin-right: 80px;
+}
+
+
+.pad {
+    width: 20px;
+    height: 20px;
+    background-color: lightgreen;
+}
+
+.mar {
+    width: 20px;
+    height: 20px;
+    background-color: lightblue;
+}

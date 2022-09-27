@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    background-color: aquamarine;
+}
+
+.main {
+    background-color: pink;
+    margin: 0 auto;
+    display: table;
+    border: dashed 1px rgb(93, 93, 93);
+}
+
+img {
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 10px;
+    border: dashed 1px rgb(93, 93, 93);
+}
+
+.pad {
+    width: 20px;
+    height: 20px;
+    background-color: lightgreen;
+}
+
+.mar {
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+}
+
+.inputs {
+    padding: 20px;
+}

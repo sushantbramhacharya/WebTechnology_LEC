@@ -40,11 +40,9 @@
     let marginIndicator = document.getElementById("mar");
 
     function increasePadding() {
-        if (padding != 0) {
-            padding += 10;
-            container.style.padding = padding + "px";
-            paddingIndicator.innerHTML = padding + " px";
-        }
+        padding += 10;
+        container.style.padding = padding + "px";
+        paddingIndicator.innerHTML = padding + " px";
     }
     function decreasePadding() {
         if (padding != 0) {
@@ -54,11 +52,9 @@
         }
     }
     function increaseMargin() {
-        if (margin != 0) {
-            margin += 10;
-            container.style.margin = margin + "px";
-            marginIndicator.innerHTML = margin + " px";
-        }
+        margin += 10;
+        container.style.margin = margin + "px";
+        marginIndicator.innerHTML = margin + " px";
     }
     function decreaseMargin() {
         if (margin != 0) {

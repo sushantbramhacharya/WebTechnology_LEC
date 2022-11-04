@@ -1,0 +1,25 @@
+.bg {
+    position: relative;
+}
+
+.des {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    color: white;
+    left: 20px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    color: white;
+}
+
+ul {
+    background-color: blueviolet;
+}
+
+li {
+    display: inline-block;
+}
